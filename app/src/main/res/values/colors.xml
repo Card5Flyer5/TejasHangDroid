@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="title_dark_green">#006400</color>
+    <color name="title_blue">#3f00ff</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="transparent">#55000000</color>
+    <color name="text_red">#d2040e</color>
+    <color name="about_bg">#77336699</color>
+</resources>
