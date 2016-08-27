@@ -7,7 +7,7 @@
     <uses-permission android:name="android.permission.RECEIVE_SMS" />
     <uses-permission android:name="android.permission.READ_SMS" />
     <uses-permission android:name="android.permission.SEND_SMS" />
-
+    <!-- Request Permission to Read ContactsActivity Provider -->
     <uses-permission android:name="android.permission.READ_CONTACTS" />
 
     <application
@@ -31,7 +31,7 @@
         </activity>
         <activity
             android:name=".GameActivity"
-            android:label="@string/title_activity_game">
+            android:label="@string/title_activity_game" >
         </activity>
         <activity
             android:name=".GameOverActivity"
@@ -58,7 +58,7 @@
         </activity>
         <activity
             android:name=".ScoresActivity"
-            android:label="@string/title_activity_scores">
+            android:label="@string/title_activity_scores" >
         </activity>
         <activity
             android:name=".SinglePlayerActivity"
@@ -72,7 +72,7 @@
         </activity>
         <activity
             android:name=".TextActivity"
-            android:label="@string/title_activity_text">
+            android:label="@string/title_activity_text" >
         </activity>
         <activity
             android:name=".Game2Activity"
@@ -92,11 +92,15 @@
 
         <activity
             android:name=".GameMultiActivity2"
-            android:label="@string/title_activity_game_multi2">
+            android:label="@string/title_activity_game_multi2" >
         </activity>
         <activity
             android:name=".ContactsActivity"
             android:label="@string/title_activity_contacts" >
+        </activity>
+        <activity
+            android:name=".NextScreenActivity"
+            android:label="@string/title_activity_next_screen" >
         </activity>
     </application>
 

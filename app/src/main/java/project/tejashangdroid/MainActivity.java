@@ -44,7 +44,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     {
         //handle clicks
         if(view.getId()==R.id.onePlayerButton){
-            Intent playIntent = new Intent(this, Game2Activity.class);
+            Intent playIntent = new Intent(this, NextScreenActivity.class);
             this.startActivity(playIntent);
         }
     }

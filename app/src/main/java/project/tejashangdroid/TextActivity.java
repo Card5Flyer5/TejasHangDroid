@@ -82,8 +82,8 @@ public class TextActivity extends AppCompatActivity
             Toast.makeText(this, "No Text Received", Toast.LENGTH_LONG).show();
         }
 
-        textView = (TextView) findViewById(R.id.editTextWord);
-        textView.setText(textWord);
+//        textView = (TextView) findViewById(R.id.editTextWord);
+//        textView.setText(textWord);
     }
 
     public void startMultiPlayerGame(View view)

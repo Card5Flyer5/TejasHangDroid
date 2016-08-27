@@ -67,9 +67,41 @@ public class ContactsActivity extends ListActivity
 
     }
 
+    //generate 3 select methods
+    @Override
+    public int getSelectedItemPosition()
+    {
+        Log.d("MYLOG", "getSelectedItemPosition");
+
+        return super.getSelectedItemPosition();
+    }
+
+    public ContactsActivity()
+    {
+        super();
+    }
+
+    @Override
+    public long getSelectedItemId()
+    {
+        Log.d("MYLOG", "getSelectedItemID");
+
+        return super.getSelectedItemId();
+    }
+
+    @Override
+    protected void onListItemClick(ListView l, View v, int position, long id)
+    {
+        Log.d("MYLOG","onListItemClick");
+
+        super.onListItemClick(l, v, position, id);
+    }
+
+
 
 
 
 }
+
 
 

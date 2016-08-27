@@ -40,4 +40,5 @@
     <string name="title_activity_game_activity_spinner">GameActivitySpinner</string>
     <string name="title_activity_game_multi2">GameMultiActivity2</string>
     <string name="title_activity_contacts">ContactsActivity</string>
+    <string name="title_activity_next_screen">NextScreenActivity</string>
 </resources>

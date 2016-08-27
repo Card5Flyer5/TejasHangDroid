@@ -52,7 +52,7 @@ public class GameMultiActivity extends AppCompatActivity
     }
 
 
-    //called when user clicks on button set in activity_game.xml
+    //called when user clicks on button set in activity_multi_game.xml
     public void newLetter(View view)
     {
 
@@ -109,6 +109,7 @@ public class GameMultiActivity extends AppCompatActivity
             badLetterCount++;
             wrongLetter(Character.toString(aLetter));
         }
+        
 
         letterGuessed = false;
 

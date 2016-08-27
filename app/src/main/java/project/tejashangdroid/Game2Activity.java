@@ -212,8 +212,11 @@ public class Game2Activity extends Activity
                 winBuild.setNegativeButton("Exit",
                         new DialogInterface.OnClickListener()
                         {
-                            public void onClick(DialogInterface dialog, int id) {
+                            public void onClick(DialogInterface dialog, int id)
+                            {
+                                //lose all your points you gained
                                 Game2Activity.this.finish();
+                                nextActivity();
                             }});
                 winBuild.show();
             }
@@ -258,7 +261,7 @@ public class Game2Activity extends Activity
         AlertDialog.Builder helpBuild = new AlertDialog.Builder(this);
         helpBuild.setTitle("Help");
         helpBuild.setMessage("Guess the word by selecting the letters.\n\n"
-                + "You only have 6 wrong selections then it's game over!");
+                + "You only have 6 wrong selections. On the 7th miss, it's game over!");
         helpBuild.setPositiveButton("OK",
                 new DialogInterface.OnClickListener() {
                     public void onClick(DialogInterface dialog, int id)
